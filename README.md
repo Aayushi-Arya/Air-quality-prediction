@@ -1,16 +1,34 @@
-# Air Quality Prediction 🌍
+# 🌍 Air Quality Prediction using Machine Learning
 
-This project uses machine learning to predict Air Quality Index (AQI) based on pollutant levels and geographic data.
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green" alt="ML Model">
+  <img src="https://img.shields.io/badge/Notebook-Jupyter-orange">
+  <img src="https://img.shields.io/badge/License-MIT-blue">
+  <img src="https://img.shields.io/badge/Python-3.9+-yellow">
+</p>
 
-## 📁 Files
+---
 
-- `air_quality_prediction.ipynb` – Contains data preprocessing, model training, and evaluation.
-- `AQI-and-Lat-Long-of-Countries.csv` – Dataset including AQI values and location coordinates.
-- `requirements.txt` – Python dependencies.
+Air pollution is a serious global issue. This project predicts the **Air Quality Index (AQI)** using environmental pollutant data like CO, NO₂, O₃, PM2.5 along with geographic information. The solution is built in a clean and reproducible **Jupyter Notebook** using **Random Forest Regressor**.
 
-## ⚙️ Requirements
+---
 
-Install required libraries with:
+## 🧠 Project Highlights
+
+- ✅ Predicts AQI using machine learning
+- 🌐 Uses geo-tagged pollution data from multiple countries
+- 📊 Visualizes correlation between pollutants and AQI
+- 🔍 Compares feature importance for pollutants
+- 🚀 Deploy-ready structure with requirements
+
+---
+
+## 📁 Project Structure
 
 ```bash
-pip install -r requirements.txt
+air-quality-prediction/
+│
+├── air_quality_prediction.ipynb         # Main notebook with EDA + model
+├── AQI-and-Lat-Long-of-Countries.csv    # Dataset used
+├── requirements.txt                     # All dependencies
+└── README.md                            # Project documentation
